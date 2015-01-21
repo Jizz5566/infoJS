@@ -43,7 +43,7 @@ function drawChart() {
         [{v: '052', f: '牌照稅'}, '050', '省稅']
     ]);
     
-    var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+    var chart = new google.visualization.OrgChart(document.getElementById('chart_div2'));
     var options = {
         allowHtml: true
     };
