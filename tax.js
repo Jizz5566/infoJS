@@ -51,7 +51,7 @@ function drawChart() {
     var runOnce = google.visualization.events.addListener(chart, 'ready', function() {
         // set up + sign event handlers
         var previous;
-        $('#chart_div').on('click', 'div.plus', function () {
+        $('#tax').on('click', 'div.plus', function () {
             var selection = chart.getSelection();
             var row;
             if (selection.length == 0) {
