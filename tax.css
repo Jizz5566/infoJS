@@ -8,6 +8,7 @@ charset "UTF-8";
  */
 table {
     border - collapse: separate!important;
+    background: #F3F3F3;
 }
 
 .google - visualization - orgchart - node {
